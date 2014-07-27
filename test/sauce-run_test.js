@@ -31,7 +31,7 @@ describe('sauceRun', function(){
           .browser('internet explorer', 'Windows 7' , '11')
           .run()
           .then(function(result){
-              console.dir(result);
+              result.completed.should.be.equal(true);
           })
           .then(done)
           .catch(done);

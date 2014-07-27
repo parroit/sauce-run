@@ -1,5 +1,9 @@
 language: node_js
 node_js:
-  - 0.10
+- 0.1
 before_script:
-  - npm install -g gulp
+- npm install -g gulp
+env:
+  global:
+  - secure: Om64bw58FBA0uyLRTNEuv6PYejlICVx+rMwRQFYbngk6DlxPYhU34oPajwyndRx7i5QBzftY0URb5kL0lRHT1PFhLui2sp1etBvlV0NPBrv+w5bCfvmZEet5vx2idsKhU0hE3x1NF44WHENXEhlBszc3Fc6yigJMo71EUQXft+s=
+  - secure: ggObb6JyScD6kMAfGnAZl7Lq1G3sEkzzut2ib/YfwuRPRrQnp6DBmx95zlsTyTPTM7r+Qj9BuCa1R7sGaiG2H3yvqP4rQGPmOaAA7l9S56hbPIAi6VpYEyisL3mDHoyh7/Ku0qieR4/bGi46nnCKRG0BMvXtd/ZH87CwD1CgWYQ=
