@@ -34,7 +34,8 @@
   "devDependencies": {
     "chai": "~1.9.1",
     "gulp": "~3.8.6",
-    "gulp-mocha": "~0.5"
+    "gulp-mocha": "~0.5",
+    "requesty": "^0.10.0"
   },
   "keywords": []
 }
