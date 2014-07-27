@@ -1,0 +1,39 @@
+{
+  "name": "sauce-run",
+  "description": "run your mocha tests on sauce",
+  "version": "0.1.0",
+  "homepage": "https://github.com/parroit/sauce-run",
+  "author": {
+    "name": "Andrea Parodi",
+    "email": "andrea.parodi@ebansoftware.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/parroit/sauce-run.git"
+  },
+  "bugs": {
+    "url": "https://github.com/parroit/sauce-run/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "lib/sauce-run",
+  "engines": {
+      "node": ">=0.10.26",
+      "npm": ">=1.4.3"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "gulp": "~3.8.6",
+    "gulp-mocha": "~0.5"
+
+  },
+  "keywords": []
+}
