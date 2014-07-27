@@ -29,13 +29,13 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "bluebird": "^2.2.2"
+    "bluebird": "^2.2.2",
+    "requesty": "^0.10.0"
   },
   "devDependencies": {
     "chai": "~1.9.1",
     "gulp": "~3.8.6",
-    "gulp-mocha": "~0.5",
-    "requesty": "^0.10.0"
+    "gulp-mocha": "~0.5"
   },
   "keywords": []
 }
